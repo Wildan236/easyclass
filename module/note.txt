@@ -1,0 +1,23 @@
+module
+    rfid V
+    lampu + led V
+    suhu V
+    absensi (-)
+    ubidots V
+
+
+
+main
+# bagian suhu
+1. deteksi sensor suhu
+2. kirim data suhu ke ubidots
+
+# bagian lampu
+1. menerima daata lampu & led dari ubidots
+2. nyalakam, matikan lampu & led lewat ubidots
+
+#bagian rfid
+1. bikin web
+
+#tambahan
+1. bikin notifikasi lewat bot tele saat suhu & kelembaban melebihi batas normal
